@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#sale h5{
+    display: none;
+}
+#tag h6{
+    display: none;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+#center{
+    width: 100%;
+    /* background-color: red; */
+    padding: 20px 80px;
+}
+#center h1{
+    /* font-size: 78px; */
+    font-size: 4.1vw;
+    font-weight: 500;
+    line-height: 4.4vw;
+}
+#center-in{
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    /* font-size: 22px; */
+    font-size: 1.17vw;
+    font-weight: 600;
+    line-height: 1.8vw;
+}
+#right{
+    width: 20%;
+}
+.elem{
+    /* background-color:yellow; */
+    /* margin: 5px; */
+    padding: 20px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+#bottom{
+    height: 36%;
+    width: 100%;
+    background-color: red;
+    background-image: url(./jacket.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+.footer{
+    display: none;
+}
+@media (max-width:600px){
+    #nav{
+    height: 60px;
+    gap: 23px;
+    padding: 0 20px;
+    background-color: #f8f8f8;
+}
+#nav h4{
+    font-size: 13px;
+    font-weight: 600;
+    color: #333333;
+}
+#sale{
+    background-color: rgb(94, 88, 88);
+    padding: 5px 20px;
+}
+#sale h5{
+ display: initial;
+ width: 100%;
+color: bisque;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#tag{
+    background-color: black;
+}
+#tag h6{
+    display: initial;
+    width: 100%;
+    color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#nav i{
+    font-size: 11px;
+    padding: 7px;
+    background-color: #333333;
+}
+#center{
+    padding: 20px 10px;
+}
+#center h1{
+    font-size: 11vw;
+    font-weight: 500;
+    line-height: 13.5vw;
+}
+#center-in{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 52px;
+}
+#center-in p{
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 4.2vw;
+}
+#right{
+    width: 100%
+}
+.elem{
+    padding: 10px 0;
+    border-top: 1.5px solid #000;
+}
+.elem i{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    color: #303030;
+}
+.elem a{
+    color: #303030;
+    font-size: 12px;
+}
+#bottom{
+    margin-top: 21px;
+    height: 13%;
+    width: 100%;
+    background-image: url(./jacket.jpg);
+    background-size: cover;
+    
+
+}
+.footer {
+display: initial;
+  
+}
+
+}

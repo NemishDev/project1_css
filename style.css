@@ -94,6 +94,10 @@ html, body {
 .elem:hover i{
     opacity: 1;
 }
+.top-bottom{
+    display:none;
+}
+
 
 #bottom{
     height: 36%;
@@ -186,8 +190,41 @@ align-items: center;
     color: #303030;
     font-size: 12px;
 }
+.top-bottom {
+    display: initial;
+    display: block;
+  background-color:black;
+  height: 95px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+.top-bottom h3{
+    /* font-size: 45px;
+    font-weight: 400;
+    color: #f8f8f8;
+    font-family: 'Playfair Display', serif; */
+    font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: bisque;
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+.top-bottom h5{
+    font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-top: -10px;
+}
+
 #bottom{
-    margin-top: 87px;
+    margin-top: 0px;
     height: 13%;
     width: 100%;
     background-image: url(./jacket.jpg);
